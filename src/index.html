@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Angular 2 TypeScript Gulp QuickStart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 1. Load libraries -->
+    <!-- Polyfill(s) for older browsers -->
+    <script src="lib/es6-shim/es6-shim.min.js"></script>
+
+    <script src="lib/zone.js/dist/zone.js"></script>
+    <script src="lib/reflect-metadata/Reflect.js"></script>
+    <script src="lib/systemjs/dist/system.src.js"></script>
+    <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+    <!--<script src="lib/ng2-firebase/bundles/ng2-firebase-all.umd.js"></script>-->
+    <script src="lib/chart.js/dist/Chart.bundle.min.js"></script>
+
+
+    <!--<script src="lib/angular2-google-maps/core/index.js"></script>-->
+    <!--<script src="lib/angular2-google-maps/core/index.js"></script>-->
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app')
+                .then(null, console.error.bind(console));
+    </script>
+
+</head>
+
+<!-- 3. Display the application -->
+<body>
+<app>Loading...</app>
+</body>
+
+</html>
