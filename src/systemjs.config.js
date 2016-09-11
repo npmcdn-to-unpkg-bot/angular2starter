@@ -6,7 +6,7 @@
         'rxjs': 'lib/rxjs',
         'd3': 'lib/d3',
         // 'angular2-google-maps': 'lib/angular2-google-maps/core',
-        // 'angular2-google-maps':'https://npmcdn.com/angular2-google-maps@0.12.0',
+        // 'angular2-google-maps':'https://unpkg.com/angular2-google-maps@0.12.0',
         '@angular': 'lib/@angular',
         'moment': 'lib/moment',
         'ng2-firebase': 'lib/ng2-firebase',
